@@ -1,0 +1,360 @@
+html, body{
+margin: 0;
+padding: 0;
+}
+body{
+ margin-top: 50px;
+ max-width: 1500px;
+ min-width: 1300px;
+}
+.logo{
+ float: left;
+ margin-left: 50px;
+}
+li{
+ list-style-type: none;
+}
+nav ul{
+   float: right;
+   list-style:none;
+   padding: 0px;
+   margin: 0px;
+}
+nav ul li{
+ float: left;
+ position: relative;
+}
+nav ul li a{
+ padding: 15px;
+ text-decoration: none;
+ font-size: 0.9em;
+ font-weight: bold;
+}
+.black{
+ color: black;
+ border: 1px solid black;
+}
+.green{
+ color: #00C996;
+;
+
+}
+.box{
+  height: 770px;
+  max-width: 100%;
+  padding-left: 50px;
+
+}
+.text{
+ float: left;
+ font-weight: bold;
+ font-size: 70px;
+ margin-top: 50px;
+}
+.card{
+float: right;
+margin-right: 100px;
+ margin-top: 100px;
+}
+.card img{
+  width:370px;
+   height:500px;
+}
+.input .iname{
+  height: 30px;
+  color: black;
+  width: 175px;
+}
+.input .imail{
+  height:30px;
+  width: 200px;
+}
+.input .isubmit{
+  height: 30px;
+  width: 150px;
+  text-decoration: none;
+  border: none;
+  color: white;
+  background-color: green;
+}
+.input{
+  margin-top: 100px;
+  display: inline-block;
+}
+.icon{
+  text-align: center;
+  margin-top: 130px;
+}
+.icon img{
+  margin: 40px;
+}
+.images{
+  height: 700px;
+  max-width: 100%;
+  overflow: hidden;
+}
+.image1{
+  float: left;
+  width:620px;
+}
+.image2{
+  float: right;
+  width:620px;
+}
+.para p{
+  font-family: SF Pro;
+font-size: 36px;
+font-weight: 31;
+line-height: 60px;
+letter-spacing: 0em;
+text-align: left;
+margin-top: 0px;
+}
+.border{
+border: 1px solid black;
+height: 717px;
+width: 1274px;
+left: 83px;
+top: 1802px;
+border-radius: 0px;
+margin: 50px;
+}
+.spend{
+  height: 600px;
+  float: left;
+  width: 500px;
+  margin:50px;
+}
+.boldh{
+  height: 48px;
+width: 335px;
+left: 173px;
+top: 1866px;
+font-size: 2.4em;
+margin-bottom: 3px;
+margin-left: 50px;
+
+}
+.gen{
+  height: 36px;
+width: 427px;
+left: 173px;
+top: 1922px;
+border-radius: nullpx;
+margin-left: 50px;
+font-size: 1.5em;
+margin-top: 3px;
+}
+.bold{
+  height: 140px;
+width: 372px;
+left: 0px;
+top: 0px;
+padding: 50px;
+padding-bottom: 0px;
+font-size: 2.5em;
+
+}
+.send{
+font-size: 1.2em;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0em;
+text-align: left;
+margin-left: 50px;
+
+
+
+}
+.app{
+  height: 605px;
+
+  width: 408px;
+  left: 894px;
+  top: 1858px;
+  border-radius: 0px;
+ float: right;
+ margin: 50px;
+}
+.rib{
+  background-image: url(office.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 350px;
+}
+.ribtx{
+ font-weight: bolder;
+ font-size: 2.9em;
+ color: white;
+ padding-top: 60px;
+ padding-left: 141px;
+ width: 330px;
+}
+.team{
+  padding-left: 141px;
+  padding-top: 20px;
+  width:110px;
+
+
+}
+.link{
+ height: 25px;
+ width: 110px;
+ border: 1px solid white;
+ padding-top: 7px;
+ padding-left: 20px;
+}
+.team a{
+ text-decoration: none;
+ color: white;
+}
+.footer{
+  background-color: black;
+  color: white;
+  display: grid;
+  justify-content: center;
+  justify-item:center;
+  height: fit-content !important;
+
+}
+.fblock{
+  border: 1px dotted white;
+  display: grid;
+  grid-auto-flow: column;
+  justify-content: center;
+  grid-column-gap: 96px;
+  margin: 50px auto;
+  height: fit-content !important;
+}
+.fbox{
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+
+}
+.fcontent{
+  font-size: 1.3em;
+  margin-top: 20px;
+}
+.sub{
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-column-gap: 5px;
+  grid-row-gap: 3px;
+  justify-item: center;
+  width: 400px;
+}
+.support {
+  display: flex;
+  flex-direction: column;
+}
+.emailin{
+  border-radius: 14px;
+  padding: 10px 2px;
+  background: transparent;
+  outline: none;
+  border: none;
+  color: black;
+}
+.searchbar{
+  height: 40px;
+  border: 1px solid white;
+  width: 400px;
+  padding-left: 50px;
+  border-radius: 35px;
+  margin-bottom: 100px;
+}
+.join{
+  background-color: grey;
+  box-radius:12px;
+  border: none;
+  color: white;
+  padding: 13px 27px;
+}
+
+a{
+cursor: pointer;
+}
+.footer {
+    background: #000;
+    color: #fff;
+    padding: 4em;
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    height:700px
+}
+ .fBlock {
+    margin: 0 auto;
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: center;
+    grid-column-gap: 96px;
+}
+ .fBox {
+    display: flex;
+    flex-direction: column;
+}
+ .SBox {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-column-gap: 112px;
+    grid-row-gap: 35px;
+    justify-items: center;
+}
+ .searchBar {
+    grid-column: 1 / -1;
+    grid-row: 3;
+    border: 1px solid #7B7B7B;
+     box-sizing: border-box;
+     border-radius: 56px;
+    padding: 11px;
+    display: flex;
+}
+ .support {
+    display: flex;
+    flex-direction: column;
+}
+ .footerLists {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: grid;
+    grid-row-gap: 18px;
+}
+ .footerlist a {
+    text-decoration: none;
+}
+ li.footerList > a {
+    text-decoration: none;
+    color: #fff;
+}
+ .emailInput {
+    border-radius: 14px;
+    padding: 10px 2px;
+    background: transparent;
+    outline: none;
+    border: none;
+    color: #fff;
+}
+ .emailInput::placeholder {
+    color: #fff;
+}
+ .joinBtn {
+    background: #2C2C2C;
+     box-shadow: 40px 0px 70px rgba(0, 201, 150, 0.05), -40px 100px 70px rgba(0, 201, 150, 0.05);
+     border-radius: 37px;
+    border: none;
+    color: #fff;
+    padding: 13px 27px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+}
